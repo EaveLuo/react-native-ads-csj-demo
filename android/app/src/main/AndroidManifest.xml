@@ -39,8 +39,7 @@
             <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
       </activity>
-    </application>
-    <!-- 穿山甲 start================== -->
+      <!-- 穿山甲 start================== -->
     <provider
         android:name="com.bytedance.sdk.openadsdk.TTFileProvider"
         android:authorities="${applicationId}.TTFileProvider"
@@ -56,4 +55,5 @@
         android:authorities="${applicationId}.TTMultiProvider"
         android:exported="false" />
     <!-- 穿山甲 end================== -->
+    </application>
 </manifest>
