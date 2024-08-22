@@ -1,5 +1,4 @@
 apply plugin: "com.android.application"
-apply plugin: 'mediation-auto-adapter'
 
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
@@ -263,8 +262,10 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
-    //融合基础包，必须引入
+    // 穿山甲
     implementation "com.pangle.cn:mediation-sdk:6.3.1.4"
+
+    implementation "com.pangle.cn:mediation-test-tools:6.3.1.4" //groMore 测试工具，仅在测试阶段使用，请勿带到线上
 
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
