@@ -19,7 +19,7 @@ buildscript {
     }
     repositories {
         maven {
-            url "https://artifact.bytedance.com/repository/pangle"
+            url "https://artifact.bytedance.com/repository/pangle/"
         }
         // google()
         maven { url 'https://maven.aliyun.com/repository/google' }
@@ -54,7 +54,7 @@ allprojects {
             }
         }
         maven {
-            url "https://artifact.bytedance.com/repository/pangle"
+            url "https://artifact.bytedance.com/repository/pangle/"
         }
         // google()
         maven { url 'https://maven.aliyun.com/repository/google' }

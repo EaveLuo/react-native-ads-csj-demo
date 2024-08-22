@@ -271,6 +271,9 @@ repositories {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
 
+    //融合基础包，必须引入
+    implementation "com.pangle.cn:mediation-sdk:6.2.1.7"
+
     //noinspection GradleDynamicVersion
     implementation "com.facebook.react:react-native:+"  // From node_modules
 
